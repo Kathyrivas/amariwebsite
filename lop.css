@@ -1,0 +1,109 @@
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.orange {
+	display: block;
+        height: 100%;
+	width: 100%;
+	background-color: #8B0000;
+
+}
+
+.brown {
+	display: flex;
+     height: calc(100%/3)%;
+	width: 100%;
+	background-color: #8B0000;
+
+}
+
+
+.purple {
+	display: flex;
+        height: calc(100%/3);
+	width: 100%;
+	background-color: #8B0000;
+}
+
+.blue {
+	display: block;
+	height: 50%;
+	width: 100%;
+    background-color: #8B0000;
+}
+
+	
+.red {
+	display: flex;
+	height: 50%;
+	width: 50%;
+    background-image:url("images/med.png");
+}
+
+.yellow {
+	display: flex;
+	height: 100%;
+	width: 25%;
+    background-image:url("images/med.png");
+}
+
+.pink {
+	display: flex;
+	height: 100%;
+	width: 25%;
+    background-image:url("images/med.png");
+}
+}
+
+.hide{
+visibility: hidden;
+}	
+/* implemented to hide key so that it won't intially appear on page before the puzzle is solved*/
+.invisible {
+	display:none;
+	visibility: hidden;
+}
+/*changes opacity level*/
+.opaque {
+	opacity: 0.25;
+}	
+	
+.restrict-img-size {
+	height: 59%;
+	width: 80%;
+}	
+	
+	
+.center-content {
+	align-items: center;
+	justify-content:center;
+	
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+
+  padding: 10px;
+}
+
+.boly {
+  background-image: url("back.jfif");
+  
+}
+
+
+.fitted {
+	display: block;
+	height: 33.5%;
+	width: 100%;	
+}
+
+.black {
+	display: block;
+	height: 33.5%;
+	width: 100%;
+}
